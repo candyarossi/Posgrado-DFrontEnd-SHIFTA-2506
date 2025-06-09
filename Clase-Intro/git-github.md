@@ -62,9 +62,9 @@ git init
 
 ## Estados de archivos y creación de versiones
 
-<center>
+<div align="center">
   <img src="./img/git-2.webp" width="30%" style="background-color: white; padding: 20px"/>
-</center>
+</div>
 
 Para agregar archivos al repositorio, usamos:
 
@@ -142,9 +142,9 @@ Teniendo un `token`, solo basta con utilizarlo en lugar de la password al moment
 
 ## Colaboración en Proyectos
 
-<center>
+<div align="center">
   <img src="./img/git-1.png" width="30%" />
-</center>
+</div>
 
 ### Clonar un repositorio
 
