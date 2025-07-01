@@ -18,22 +18,22 @@
 
 ## Bloque 3: CSS Avanzado
 
-- [Semana 1:]()
+- [Semana 1:](./Clase-1/resumen-clase.md)
     - Posicionamiento de elementos usando Flexbox
     - Alternativa: Grid
     - Frameworks CSS: Bootstrap, Tailwind
 
-- [Semana 2:]()
+- [Semana 2:](./Clase-2/resumen-clase.md)
     - Pseudo Clases
     - Pseudo Elementos
     - Fonts: font-face, Google Fonts
     - Fluid fonts: clamp
 
-- [Semana 3:]()
+- [Semana 3:](./Clase-3/resumen-clase.md)
     - Transiciones y animaciones CSS
     - Preprocesadores CSS
     - SASS (instalación, variables, nesting, mixins, functions)
 
-- [Semana 4:]()
+- [Semana 4:](./Clase-4/resumen-clase.md)
     - Responsive Design (media queries, breakpoints)
     - Imágenes responsive, picture, lazy load, clamp
