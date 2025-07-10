@@ -7,33 +7,32 @@
 
 ## Bloque 1: Conceptos generales de programación para diseñadores
 
-- [Semana 2, Clase 1:](./Clase-Intro/resumen-clase.md)
+- [Semana 2:](./Clase-Intro/resumen-clase.md)
     - Editores (VSCode), inspector del navegador
     - Entorno/Herramientas de desarrollo: localhost, MAMP
     - Principios básicos de accesibilidad y web semántica, SEO
-
-- [Semana 2, Clase 1:](./Clase-Intro/git-github.md)
     - IA para la generación de código
-    - Control de versiones: Git / GitHub
+    - Control de versiones: [Git / GitHub](./Clase-Intro/git-github.md)
 
 ## Bloque 3: CSS Avanzado
 
-- [Semana 1:](./Clase-1/resumen-clase.md)
-    - Posicionamiento de elementos usando Flexbox
-    - Alternativa: Grid
-    - Frameworks CSS: Bootstrap, Tailwind
+- Semana 1:
+    - [Flexbox (Parte 2)](./Clase-1/flexbox.md)
+    - [Grids](./Clase-1/grids.md)
+    - [Frameworks CSS](./Clase-1/frameworks.md)
+    - [Extra: Bootstrap](./Clase-1/bootstrap.md)
 
-- [Semana 2:](./Clase-2/resumen-clase.md)
-    - Pseudo Clases
-    - Pseudo Elementos
-    - Fonts: font-face, Google Fonts
-    - Fluid fonts: clamp
+- Semana 2:
+    - [Pseudo-Clases](./Clase-2/resumen-clase.md)
+    - [Pseudo-Elementos](./Clase-2/resumen-clase.md)
+    - [Fonts: font-face, Google Fonts](./Clase-2/resumen-clase.md)
+    - [Fluid fonts: clamp](./Clase-2/resumen-clase.md)
 
-- [Semana 3:](./Clase-3/resumen-clase.md)
-    - Transiciones y animaciones CSS
-    - Preprocesadores CSS
-    - SASS (instalación, variables, nesting, mixins, functions)
+- Semana 3:
+    - [Transiciones y animaciones CSS](./Clase-3/resumen-clase.md)
+    - [Preprocesadores CSS](./Clase-3/resumen-clase.md)
+    - [SASS (instalación, variables, nesting, mixins, functions)](./Clase-3/resumen-clase.md)
 
-- [Semana 4:](./Clase-4/resumen-clase.md)
-    - Responsive Design (media queries, breakpoints)
-    - Imágenes responsive, picture, lazy load, clamp
+- Semana 4:
+    - [Responsive Design (media queries, breakpoints)](./Clase-4/resumen-clase.md)
+    - [Imágenes responsive, picture, lazy load, clamp](./Clase-4/resumen-clase.md)
