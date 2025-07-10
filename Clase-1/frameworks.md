@@ -39,7 +39,10 @@ Estos frameworks nos brindan:
 **¿Cómo se usa?**
 
 ```html
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<link
+  href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+  rel="stylesheet"
+/>
 <button class="btn btn-primary">Botón Bootstrap</button>
 ```
 
@@ -73,7 +76,10 @@ Estos frameworks nos brindan:
 **¿Cómo se usa?**
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
+/>
 <button class="button is-primary">Botón Bulma</button>
 ```
 
@@ -90,7 +96,10 @@ Estos frameworks nos brindan:
 **¿Cómo se usa?**
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.19.1/dist/css/uikit.min.css" />
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/uikit@3.19.1/dist/css/uikit.min.css"
+/>
 <script src="https://cdn.jsdelivr.net/npm/uikit@3.19.1/dist/js/uikit.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/uikit@3.19.1/dist/js/uikit-icons.min.js"></script>
 <button class="uk-button uk-button-primary">Botón UIkit</button>
@@ -113,7 +122,7 @@ npm install @mui/material @emotion/react @emotion/styled
 ```
 
 ```jsx
-import Button from '@mui/material/Button';
+import Button from "@mui/material/Button";
 
 function App() {
   return <Button variant="contained">Botón Material UI</Button>;
@@ -122,7 +131,7 @@ function App() {
 
 > 🔗 [Documentación oficial de Material UI](https://mui.com)
 
-<br> 
+<br>
 
 ### Otros...
 
@@ -141,12 +150,12 @@ Existen una gran variedad de Frameworks CSS pero entre los más utilizados en la
 
 ## ¿Cómo elegir uno?
 
-| Criterio         | Bootstrap        | Tailwind CSS      | Bulma           | UIkit           | Material UI (React) |
-|------------------|------------------|--------------------|------------------|------------------|----------------------|
-| Facilidad inicial| Alta             | Media              | Alta             | Alta             | Media                |
-| Personalización  | Media            | Muy alta           | Alta             | Alta             | Muy alta             |
-| Complejidad      | Baja             | Alta               | Baja             | Media            | Alta                 |
-| Ideal para       | Prototipado rápido| Interfaces precisas| Proyectos simples| UI limpia modular| Interfaces con React |
+| Criterio          | Bootstrap          | Tailwind CSS        | Bulma             | UIkit             | Material UI (React)  |
+| ----------------- | ------------------ | ------------------- | ----------------- | ----------------- | -------------------- |
+| Facilidad inicial | Alta               | Media               | Alta              | Alta              | Media                |
+| Personalización   | Media              | Muy alta            | Alta              | Alta              | Muy alta             |
+| Complejidad       | Baja               | Alta                | Baja              | Media             | Alta                 |
+| Ideal para        | Prototipado rápido | Interfaces precisas | Proyectos simples | UI limpia modular | Interfaces con React |
 
 <br>
 

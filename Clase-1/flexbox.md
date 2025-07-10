@@ -4,10 +4,9 @@
 
 ## Definición y Usos
 
-`Flexbox` es un _modo de diseño_ que nos permite crear estructuras para sitios web de una forma más fácil. Podrás posicionar un elemento en la posición que desees horizontalmente y por si fuera poco también en forma vertical. 
+`Flexbox` es un _modo de diseño_ que nos permite crear estructuras para sitios web de una forma más fácil. Podrás posicionar un elemento en la posición que desees horizontalmente y por si fuera poco también en forma vertical.
 
 Además, no solo puedes posicionar elementos vertical y horizontalmente, sino que puedes establecer cómo se distribuirán, el orden que tendrán e incluso el tamaño que tendrán en proporción a otros elementos. Esto es perfecto para crear diseños adaptables a dispositivos móviles (Responsive Design).
-	
 `Flexbox` no es una propiedad ni un conjunto de propiedades. `Flexbox` es un nuevo _modelo de layout_ que viene a incorporarse a los ya existentes en CSS y sustituye los modelos anteriores como:
 
 - **Block:** Los elementos aparecen uno debajo de otro ocupando todo el ancho disponible.
@@ -16,6 +15,8 @@ Además, no solo puedes posicionar elementos vertical y horizontalmente, sino qu
 - **Positioned:** Los elementos pueden romper el flujo y posicionarse en cualquier lugar del documento.
 
 En fin, debemos saber que un _modelo de layout_ es un _set de algoritmos_ que determinan el tamaño y la posición de los elementos con respecto a sus hermanos y ancestros.
+
+> 🔗 [Documentación Flexbox](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Flexbox)
 
 <br>
 
@@ -47,13 +48,13 @@ Para comenzar a utilizar Flexbox lo primero que debemos hacer es establecer la p
 
 ```css
 .flex-container {
-	display: flex;
+  display: flex;
 }
 ```
 
 <br>
 
-## Propiedad flex-direction
+## Propiedad `flex-direction`
 
 Esta propiedad me va a permitir manejar el direccionamiento de los flex items, nos va a permitir especificar si queremos que los flex items se dispongan en filas o columnas.
 
@@ -65,8 +66,8 @@ Esta propiedad me va a permitir manejar el direccionamiento de los flex items, n
 
 ```css
 .flex-container {
-	display: flex;
-	flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 ```
 
@@ -74,7 +75,7 @@ Esta propiedad me va a permitir manejar el direccionamiento de los flex items, n
 
 <br>
 
-## Propiedad flex-wrap
+## Propiedad `flex-wrap`
 
 El comportamiento inicial del contenedor flexible es poder mantener los flex items en su eje horizontal sin importar que las dimensiones de estos ítems cambien, pero hay ocasiones donde vamos a querer controlar este alineamiento y hacer que los elementos puedan saltar de línea para poder mantener una apariencia deseada en estos flex items. Con `flex-wrap` vamos a poder especificar si queremos que los ítems puedan saltar a una nueva línea si el contenedor flexible se queda sin espacio.
 
@@ -86,8 +87,8 @@ El comportamiento inicial del contenedor flexible es poder mantener los flex ite
 
 ```css
 .flex-container {
-	display: flex;
-	flex-wrap: nowrap;
+  display: flex;
+  flex-wrap: nowrap;
 }
 ```
 
@@ -95,7 +96,7 @@ El comportamiento inicial del contenedor flexible es poder mantener los flex ite
 
 <br>
 
-## Propiedad justify-content
+## Propiedad `justify-content`
 
 `justify-content` nos va a permitir alinear los elementos en el eje horizontal de la línea actual del contenedor flexible, esto puede ser de forma vertical o horizontal según lo especifiquemos con `flex-direction`, también nos va a ayudar a distribuir los flex items en el contenedor flexible cuando los ítems no utilicen todo el espacio disponible en su eje principal actual. Esto es declarar la forma en que el navegador debe distribuir el espacio disponible entre los ítems flexibles.
 
@@ -107,16 +108,16 @@ El comportamiento inicial del contenedor flexible es poder mantener los flex ite
 
 ```css
 .flex-container {
-	display: flex;
-	justify-content: flex-start;
+  display: flex;
+  justify-content: flex-start;
 }
 ```
 
-> 🔗 Puedes probar su funcionamiento [aquí](https://developer.mozilla.org/en-US/docs/Web/CSS/justify-content). Esta misma propiedad se utiliza para CSS Grids, por lo cual verás en el ejemplo de la demo que se está utilizando para varias filas y columnas, pero la distribución y comportamiento de los elementos sigue siendo la misma. 
+> 🔗 Puedes probar su funcionamiento [aquí](https://developer.mozilla.org/en-US/docs/Web/CSS/justify-content). Esta misma propiedad se utiliza para CSS Grids, por lo cual verás en el ejemplo de la demo que se está utilizando para varias filas y columnas, pero la distribución y comportamiento de los elementos sigue siendo la misma.
 
 <br>
 
-## Propiedad align-items
+## Propiedad `align-items`
 
 `align-items` nos permite establecer la alineación que tendrán por defecto los flex items, es similar a la propiedad `justify-content` pero esta vez la dirección es perpendicular. Es decir, `align-items` nos va a permitir organizar los ítems en el eje secundario del contenedor flex.
 
@@ -128,16 +129,16 @@ El comportamiento inicial del contenedor flexible es poder mantener los flex ite
 
 ```css
 .flex-container {
-	display: flex;
-	align-items: flex-start;
+  display: flex;
+  align-items: flex-start;
 }
 ```
 
-> 🔗 Puedes probar su funcionamiento [aquí](https://developer.mozilla.org/en-US/docs/Web/CSS/align-items). Esta misma propiedad se utiliza para CSS Grids, por lo cual verás en el ejemplo de la demo que se está utilizando para varias filas y columnas, pero la distribución y comportamiento de los elementos sigue siendo la misma. 
+> 🔗 Puedes probar su funcionamiento [aquí](https://developer.mozilla.org/en-US/docs/Web/CSS/align-items). Esta misma propiedad se utiliza para CSS Grids, por lo cual verás en el ejemplo de la demo que se está utilizando para varias filas y columnas, pero la distribución y comportamiento de los elementos sigue siendo la misma.
 
 <br>
 
-## Propiedad align-content
+## Propiedad `align-content`
 
 La propiedad `align-content` alinea los flex items cuando estos no usan todo el espacio disponible en el eje vertical del contenedor flexible.
 
@@ -151,16 +152,16 @@ La propiedad `align-content` alinea los flex items cuando estos no usan todo el 
 
 ```css
 .flex-container {
-	display: flex;
-	align-content: flex-start;
+  display: flex;
+  align-content: flex-start;
 }
 ```
 
-> 🔗 Puedes probar su funcionamiento [aquí](https://developer.mozilla.org/en-US/docs/Web/CSS/align-content). Esta misma propiedad se utiliza para CSS Grids, por lo cual verás en el ejemplo de la demo que se está utilizando para varias filas y columnas, pero la distribución y comportamiento de los elementos sigue siendo la misma. 
+> 🔗 Puedes probar su funcionamiento [aquí](https://developer.mozilla.org/en-US/docs/Web/CSS/align-content). Esta misma propiedad se utiliza para CSS Grids, por lo cual verás en el ejemplo de la demo que se está utilizando para varias filas y columnas, pero la distribución y comportamiento de los elementos sigue siendo la misma.
 
 <br>
 
-## Propiedad order
+## Propiedad `order`
 
 Esta propiedad permite modificar el orden de aparición de un elemento. Recibe como valor números enteros positivos o negativos. Su valor por default es `1`.
 
@@ -170,8 +171,8 @@ Esta propiedad permite modificar el orden de aparición de un elemento. Recibe c
 
 ```css
 .flex-item {
-	display: flex;
-	order: -1;
+  display: flex;
+  order: -1;
 }
 ```
 

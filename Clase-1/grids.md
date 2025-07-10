@@ -1,4 +1,4 @@
-# CSS Grids
+# CSS GRIDS
 
 <br>
 
@@ -6,9 +6,11 @@
 
 `CSS Grid Layout` contiene funciones de diseño dirigidas a los desarrolladores de aplicaciones web. Se puede utilizar para lograr muchos diseños diferentes y se destaca por dividir una página en regiones principales, o definir la relación en términos de tamaño, posición y capas entre partes de un control.
 
-El `grid layout` permite alinear elementos en _columnas y filas_, sin embargo, son posibles más diseños con `CSS grid` que como lo eran con las tablas que poseen las mismas alineaciones. 
+El `grid layout` permite alinear elementos en _columnas y filas_, sin embargo, son posibles más diseños con `CSS grid` que como lo eran con las tablas que poseen las mismas alineaciones.
 
-`CSS Grid` es el sistema de maquetación más potente que hay disponible. Se trata de un sistema en 2D que nos permite definir filas y columnas (a diferencia de, por ejemplo, Flexbox, el cual funciona en una única dimensión, en una fila o en una columna). 
+`CSS Grid` es el sistema de maquetación más potente que hay disponible. Se trata de un sistema en 2D que nos permite definir filas y columnas (a diferencia de, por ejemplo, Flexbox, el cual funciona en una única dimensión, en una fila o en una columna).
+
+> 🔗 [Documentación Grids](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Grids)
 
 <br>
 
@@ -31,7 +33,7 @@ Activamos la cuadrícula Grid utilizando, sobre el elemento contenedor, la propi
 
 ```css
 .grid-container {
-	display: grid;
+  display: grid;
 }
 ```
 
@@ -39,10 +41,10 @@ Activamos la cuadrícula Grid utilizando, sobre el elemento contenedor, la propi
 
 ### Filas y columnas explícitas
 
-Es posible crear cuadrículas con un tamaño definido. Para ello, sólo tenemos que usar las propiedades CSS `grid-template-columns` y `grid-template-rows`, sirven para indicar las dimensiones de cada celda de la cuadrícula, diferenciando entre columnas y filas.	
+Es posible crear cuadrículas con un tamaño definido. Para ello, sólo tenemos que usar las propiedades CSS `grid-template-columns` y `grid-template-rows`, sirven para indicar las dimensiones de cada celda de la cuadrícula, diferenciando entre columnas y filas.
 
 - **Propiedad `grid-template-columns`:** Establece el tamaño de las columnas (eje horizontal). 🔗 Puedes probar su funcionamiento [aquí](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-columns).
-- **Propiedad `grid-template-rows`:** Establece el tamaño de las filas (eje vertical). 🔗 Puedes probar su funcionamiento [aquí](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-rows). 
+- **Propiedad `grid-template-rows`:** Establece el tamaño de las filas (eje vertical). 🔗 Puedes probar su funcionamiento [aquí](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-rows).
 
 - Sus posibles valores son: - numéricos - (acompañados de la unidad de medida y combinables entre sí), y `auto` (obtiene el tamaño restante de la columna o fila y lo divide en partes iguales según cuántas veces ha sido utilizado).
 
@@ -52,9 +54,9 @@ Es posible crear cuadrículas con un tamaño definido. Para ello, sólo tenemos 
 
 ```css
 .grid-container {
-	display: grid;
-	grid-template-columns: 40px 50px auto 50px 40px;
-	grid-template-rows: 25% 100px;
+  display: grid;
+  grid-template-columns: 40px 50px auto 50px 40px;
+  grid-template-rows: 25% 100px;
 }
 ```
 
@@ -66,9 +68,9 @@ En las propiedades `grid-template-columns` y `grid-template-rows` podemos indica
 
 ```css
 .grid-container {
-	display: grid;
-	grid-template-columns: repeat(2, 100px);
-	grid-template-rows: repeat(2, 50px);
+  display: grid;
+  grid-template-columns: repeat(2, 100px);
+  grid-template-rows: repeat(2, 50px);
 }
 ```
 
@@ -95,10 +97,10 @@ En la propiedad `grid-template-areas` también podemos indicar una palabra clave
 <!-- HTML -->
 
 <body>
-	<header>...</header>
-	<main>...</main>
-	<aside>...</aside>
-	<footer>...</footer>
+  <header>...</header>
+  <main>...</main>
+  <aside>...</aside>
+  <footer>...</footer>
 </body>
 ```
 
@@ -106,29 +108,29 @@ En la propiedad `grid-template-areas` también podemos indicar una palabra clave
 /* CSS */
 
 header {
-	grid-area: header;
+  grid-area: header;
 }
 
 main {
-	grid-area: main;
+  grid-area: main;
 }
 
 aside {
-	grid-area: sidebar;
+  grid-area: sidebar;
 }
 
 footer {
-	grid-area: footer;
+  grid-area: footer;
 }
 
 .grid-container {
-	display: grid;
-	grid-template-columns: repeat(4, auto);
-	grid-template-rows: repeat(3, auto);
-	grid-template-areas:
-		"header header header header"
-		"main main . sidebar"
-		"footer footer footer footer";
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-template-rows: repeat(3, auto);
+  grid-template-areas:
+    "header header header header"
+    "main main . sidebar"
+    "footer footer footer footer";
 }
 ```
 
@@ -136,12 +138,12 @@ footer {
 
 <br>
 
-## Grid espacios o gap
+## Grid espacios o `gap`
 
 La cuadrícula tiene todas sus celdas una a continuación de la otra. Aunque sería posible darle un margen a las celdas dentro del contenedor, existe una forma más apropiada, evitando los problemas clásicos de los modelos de caja: los huecos (`gutters`).
 
 - **Propiedad `column-gap`:** Establece el tamaño de los espacios entre columnas (eje horizontal). 🔗 Puedes probar su funcionamiento [aquí](https://developer.mozilla.org/en-US/docs/Web/CSS/column-gap).
-- **Propiedad `row-gap`:** Establece el tamaño de los espacios entre filas (eje vertical). 🔗 Puedes probar su funcionamiento [aquí](https://developer.mozilla.org/en-US/docs/Web/CSS/row-gap). 
+- **Propiedad `row-gap`:** Establece el tamaño de los espacios entre filas (eje vertical). 🔗 Puedes probar su funcionamiento [aquí](https://developer.mozilla.org/en-US/docs/Web/CSS/row-gap).
 
 <div align="center">
 	<img src="./images/grid-column-row-gap.png" alt="column-row-gap" title="column-row-gap">
@@ -149,11 +151,11 @@ La cuadrícula tiene todas sus celdas una a continuación de la otra. Aunque ser
 
 ```css
 .grid-container {
-	display: grid;
-	grid-template-columns: repeat(3, auto);
-	grid-template-rows: repeat(2, auto);
-	column-gap: 10px;
-	row-gap: 15px;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: repeat(2, auto);
+  column-gap: 10px;
+  row-gap: 15px;
 }
 ```
 
@@ -161,7 +163,7 @@ La cuadrícula tiene todas sus celdas una a continuación de la otra. Aunque ser
 
 ## Posición de elementos
 
-Existen propiedades que se pueden utilizar para colocar los ítems dentro de la cuadrícula en ciertas posiciones específicas. 
+Existen propiedades que se pueden utilizar para colocar los ítems dentro de la cuadrícula en ciertas posiciones específicas.
 
 Podemos distribuir los elementos de una forma muy sencilla y cómoda, utilizando `justify-ítems` y `align-items`, que ya conocemos de **Flexbox**.
 
@@ -169,7 +171,7 @@ Por otro lado, también podemos utilizar las propiedades `justify-content` o `al
 
 <br>
 
-### Propiedad justify-items
+### Propiedad `justify-items`
 
 Distribuye los elementos en el eje horizontal dentro de cada una de sus celdas.
 
@@ -181,10 +183,10 @@ Distribuye los elementos en el eje horizontal dentro de cada una de sus celdas.
 
 ```css
 .grid-container {
-	display: grid;
-	grid-template-columns: repeat(3, auto);
-	grid-template-rows: repeat(3, auto);
-	justify-items: start;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: repeat(3, auto);
+  justify-items: start;
 }
 ```
 
@@ -192,7 +194,7 @@ Distribuye los elementos en el eje horizontal dentro de cada una de sus celdas.
 
 <br>
 
-### Propiedad align-items
+### Propiedad `align-items`
 
 Distribuye los elementos en el eje vertical dentro de cada una de sus celdas.
 
@@ -204,10 +206,10 @@ Distribuye los elementos en el eje vertical dentro de cada una de sus celdas.
 
 ```css
 .grid-container {
-	display: grid;
-	grid-template-columns: repeat(3, auto);
-	grid-template-rows: repeat(3, auto);
-	align-items: start;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: repeat(3, auto);
+  align-items: start;
 }
 ```
 
@@ -215,7 +217,7 @@ Distribuye los elementos en el eje vertical dentro de cada una de sus celdas.
 
 <br>
 
-### Propiedad justify-content 
+### Propiedad `justify-content`
 
 Distribuye los elementos en conjunto en el eje horizontal dentro del grid container.
 
@@ -227,10 +229,10 @@ Distribuye los elementos en conjunto en el eje horizontal dentro del grid contai
 
 ```css
 .grid-container {
-	display: grid;
-	grid-template-columns: repeat(3, auto);
-	grid-template-rows: repeat(3, auto);
-	justify-content: start;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: repeat(3, auto);
+  justify-content: start;
 }
 ```
 
@@ -238,7 +240,7 @@ Distribuye los elementos en conjunto en el eje horizontal dentro del grid contai
 
 <br>
 
-### Propiedad align-content 
+### Propiedad `align-content`
 
 Distribuye los elementos en conjunto en el eje vertical dentro del grid container.
 
@@ -250,10 +252,10 @@ Distribuye los elementos en conjunto en el eje vertical dentro del grid containe
 
 ```css
 .grid-container {
-	display: grid;
-	grid-template-columns: repeat(3, auto);
-	grid-template-rows: repeat(3, auto);
-	align-content: start;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: repeat(3, auto);
+  align-content: start;
 }
 ```
 
@@ -267,7 +269,7 @@ Hasta ahora hemos visto propiedades CSS que se aplican solamente al contenedor p
 
 <br>
 
-### Propiedad justify-self
+### Propiedad `justify-self`
 
 Altera la justificación del ítem hijo en el eje horizontal.
 
@@ -279,7 +281,7 @@ Altera la justificación del ítem hijo en el eje horizontal.
 
 ```css
 .grid-item {
-	justify-self: start;
+  justify-self: start;
 }
 ```
 
@@ -287,7 +289,8 @@ Altera la justificación del ítem hijo en el eje horizontal.
 
 <br>
 
-### Propiedad align-self
+### Propiedad `align-self`
+
 Altera la alineación del ítem hijo en el eje vertical.
 
 - Sus posibles valores son: `start`, `end`, `center`, `stretch`.
@@ -298,7 +301,7 @@ Altera la alineación del ítem hijo en el eje vertical.
 
 ```css
 .grid-item {
-	align-self: start;
+  align-self: start;
 }
 ```
 

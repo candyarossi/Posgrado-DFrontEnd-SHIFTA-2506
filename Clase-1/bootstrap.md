@@ -242,4 +242,6 @@ Utilizando simplemente esas clases podemos crear múltiples tipos de grillas que
 
 <div align="center">
 <a href="./frameworks.md">⬅️ Frameworks CSS</a>
+  &#160;	&#160;	&#160;	&#160;	&#160;	🔸  &#160;	&#160;	&#160;	&#160;	&#160;
+<a href="../Clase-2/pseudoclases.md">Pseudo-Clases ➡️</a>
 </div>
