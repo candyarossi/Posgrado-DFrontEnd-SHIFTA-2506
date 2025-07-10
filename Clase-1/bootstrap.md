@@ -78,21 +78,21 @@ Bootstrap posee un sistema de grillas para organizar su contenido. La `grilla` s
 
 > 🔗 Documentación del [Sistema de Grillas](https://getbootstrap.com/docs/5.3/layout/grid/).
 
-<center>
+<div align="center">
 <img src="./images/boots-1.png" width="40%">
-</center>
+</div>
 
 Estas columnas se ubican siempre dentro de una _fila_, el cual debe ser un contenedor (puede ser un `div`) que lleve la clase `row`.
 
 Se representan como `col-md-x` e indican que el `div` ocupará _X_ columnas dentro de un `.container`.
 
-<center>
+<div align="center">
 <img src="./images/boots-2.png" width="40%">
-</center>
+</div>
 
-<center>
+<div align="center">
 <img src="./images/boots-3.png" width="40%">
-</center>
+</div>
 
 Si quisiéramos que un mismo `div` ocupe _6 columnas_ en un dispositivo _X_ y _3 columnas_ en un dispositivo _Y_, deberíamos aplicarle dos clases, para indicarle un comportamiento para cada resolución.
 
@@ -242,6 +242,4 @@ Utilizando simplemente esas clases podemos crear múltiples tipos de grillas que
 
 <div align="center">
 <a href="./frameworks.md">⬅️ Frameworks CSS</a>
-	&#160;	&#160;	&#160;	&#160;	&#160;	🔸  &#160;	&#160;	&#160;	&#160;	&#160;
-<a href="">Pseudo-Clases ➡️</a>
 </div>
