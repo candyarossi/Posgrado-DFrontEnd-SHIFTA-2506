@@ -1,9 +1,11 @@
 <div align="center">
-    <img width="50%" style="filter: invert(100%)" src="https://weareshifta.com/wp-content/uploads/LOGO-SHIFTA-BY-ELISAVA.png">
+    <img width="50%" src="./Clase-Intro/img/LOGO-SHIFTA-BY-ELISAVA_invertido.png">
 </div>
 <br>
 
 # Posgrado en Desarrollo Front End para Diseñadores (2506)
+
+<br>
 
 ## Bloque 1: Conceptos generales de programación para diseñadores
 
@@ -13,6 +15,8 @@
   - Principios básicos de accesibilidad y web semántica, SEO
   - IA para la generación de código
   - Control de versiones: [Git / GitHub](./Clase-Intro/git-github.md)
+
+<br>
 
 ## Bloque 3: CSS Avanzado
 
@@ -39,3 +43,9 @@
 - Semana 4:
   - [Responsive Design (media queries, breakpoints)](./Clase-4/resumen-clase.md)
   - [Imágenes Responsive (picture, lazy-load, clamp)](./Clase-4/resumen-clase.md)
+
+<br>
+
+## Ejemplos de Clase
+
+- [CSS Avanzado. Semana 1. Clase 1.](./Ejemplos-de-Clase/shifta-project/)

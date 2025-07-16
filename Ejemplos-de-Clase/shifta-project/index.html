@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MindBox</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+  </head>
+  <body>
+    <header class="main-header">
+      <div class="logo">MindBox</div>
+      <nav>
+        <ul>
+          <li><a href="index.html" class="selected">Inicio</a></li>
+          <li><a href="#">Tareas</a></li>
+          <li><a href="#">Notas</a></li>
+          <li><a href="inspiration.html">Inspiración</a></li>
+          <li><a href="#">Configuración</a></li>
+        </ul>
+      </nav>
+      <nav class="tool-bar">
+        <!--input type="text" placeholder="Search...">
+            <button type="submit">Search</button-->
+        <span class="material-symbols-outlined search">search</span>
+        <span class="material-symbols-outlined notifications"
+          >notifications</span
+        >
+        <span class="material-symbols-outlined settings">settings</span>
+        <span class="material-symbols-outlined account_circle"
+          >account_circle</span
+        >
+        <span class="user-image"
+          ><img src="images/user-photo.jpg" alt="user-image"
+        /></span>
+      </nav>
+    </header>
+
+    <aside>
+      <ul>
+        <li id="item">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Infobox_info_icon.svg/2048px-Infobox_info_icon.svg.png"
+          /><a href="index.html" class="selected">Inicio</a>
+        </li>
+        <li>
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Infobox_info_icon.svg/2048px-Infobox_info_icon.svg.png"
+          /><a href="#">Tareas</a>
+        </li>
+        <li>
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Infobox_info_icon.svg/2048px-Infobox_info_icon.svg.png"
+          /><a href="#">Notas</a>
+        </li>
+        <li>
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Infobox_info_icon.svg/2048px-Infobox_info_icon.svg.png"
+          /><a href="inspiration.html">Inspiración</a>
+        </li>
+        <li>
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Infobox_info_icon.svg/2048px-Infobox_info_icon.svg.png"
+          /><a href="#">Configuración</a>
+        </li>
+      </ul>
+    </aside>
+
+    <main>
+      <section class="features">
+        <h2>Dashboard</h2>
+        <div>
+          <article class="feature-item">
+            <h3>Tareas</h3>
+            <p>Organiza tus tareas diarias con facilidad.</p>
+            <a class="button" href="#">Ver Tareas</a>
+          </article>
+          <article class="feature-item">
+            <h3>Notas</h3>
+            <p>Toma notas rápidas y accede a ellas en cualquier momento.</p>
+            <a class="button" href="#">Ver Notas</a>
+          </article>
+          <article class="feature-item">
+            <h3>Inspiración</h3>
+            <p>Encuentra inspiración para tus proyectos y tareas.</p>
+            <a class="button" href="#">Ver Inspiración</a>
+          </article>
+          <article class="feature-item">
+            <h3>Configuración</h3>
+            <p>Personaliza la aplicación según tus preferencias.</p>
+            <a class="button" href="#">Ver Configuración</a>
+          </article>
+        </div>
+      </section>
+
+      <!-- sección últimas inspiraciones: imagen / título / fecha / resumen -->
+      <section class="latest-inspirations">
+        <h2>Últimas Inspiraciones</h2>
+        <div>
+          <article class="inspiration-item">
+            <img src="images/215-1400x800.jpg" alt="Inspiración 1" />
+            <div class="inspiration-details">
+              <h3>Título de la Inspiración 1</h3>
+              <p>Fecha: 01/01/2025</p>
+              <p>Resumen de la inspiración 1.</p>
+            </div>
+          </article>
+          <article class="inspiration-item">
+            <img src="images/216-1400x800.jpg" alt="Inspiración 2" />
+            <div class="inspiration-details">
+              <h3>Título de la Inspiración 2</h3>
+              <p>Fecha: 02/01/2025</p>
+              <p>Resumen de la inspiración 2.</p>
+            </div>
+          </article>
+          <article class="inspiration-item">
+            <img src="images/233-1400x800.jpg" alt="Inspiración 3" />
+            <div class="inspiration-details">
+              <h3>Título de la Inspiración 3</h3>
+              <p>Fecha: 03/01/2025</p>
+              <p>Resumen de la inspiración 3.</p>
+            </div>
+          </article>
+          <article class="inspiration-item">
+            <img src="images/241-1400x800.jpg" alt="Inspiración 4" />
+            <div class="inspiration-details">
+              <h3>Título de la Inspiración 4</h3>
+              <p>Fecha: 04/01/2025</p>
+              <p>Resumen de la inspiración 4.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 MindBox. Todos los derechos reservados.</p>
+    </footer>
+  </body>
+</html>
