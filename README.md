@@ -41,11 +41,15 @@
   - [SASS (instalación, variables, nesting, mixins, functions)](./Clase-3/resumen-clase.md)
 
 - Semana 4:
+
   - [Responsive Design (media queries, breakpoints)](./Clase-4/resumen-clase.md)
   - [Imágenes Responsive (picture, lazy-load, clamp)](./Clase-4/resumen-clase.md)
 
 <br>
 
-## Ejemplos de Clase
+## Ejemplos de Clase: CSS Avanzado
 
-- [CSS Avanzado. Semana 1. Clase 1.](./Ejemplos-de-Clase/shifta-project/)
+- Semana 1:
+
+  - [Clase 1](./Ejemplos-de-Clase/Semana-1-Clase-1/)
+  - [Clase 2](./Ejemplos-de-Clase/Semana-1-Clase-2/)
