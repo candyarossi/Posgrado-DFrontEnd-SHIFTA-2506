@@ -36,14 +36,14 @@
 
 - Semana 3:
 
-  - [Transiciones y Animaciones](./Clase-3/resumen-clase.md)
-  - [Preprocesadores CSS](./Clase-3/resumen-clase.md)
-  - [SASS (instalación, variables, nesting, mixins, functions)](./Clase-3/resumen-clase.md)
+  - [Transiciones y Animaciones](./Clase-3/animaciones.md)
+  - [Preprocesadores CSS](./Clase-3/sass.md)
+  - [SASS (instalación, variables, nesting, mixins, functions)](./Clase-3/sass.md)
 
 - Semana 4:
 
-  - [Responsive Design (media queries, breakpoints)](./Clase-4/resumen-clase.md)
-  - [Imágenes Responsive (picture, lazy-load, clamp)](./Clase-4/resumen-clase.md)
+  - [Responsive Design (media queries, breakpoints)](./Clase-4/responsive.md)
+  - [Imágenes Responsive (picture, lazy-load, clamp)](./Clase-4/imagenes.md)
 
 <br>
 
@@ -53,3 +53,18 @@
 
   - [Clase 1](./Ejemplos-de-Clase/Semana-1-Clase-1/)
   - [Clase 2](./Ejemplos-de-Clase/Semana-1-Clase-2/)
+
+- Semana 2:
+
+  - [Clase 1](./Ejemplos-de-Clase/)
+  - [Clase 2](./Ejemplos-de-Clase/)
+
+- Semana 3:
+
+  - [Clase 1](./Ejemplos-de-Clase/)
+  - [Clase 2](./Ejemplos-de-Clase/)
+
+- Semana 4:
+
+  - [Clase 1](./Ejemplos-de-Clase/)
+  - [Clase 2](./Ejemplos-de-Clase/)
