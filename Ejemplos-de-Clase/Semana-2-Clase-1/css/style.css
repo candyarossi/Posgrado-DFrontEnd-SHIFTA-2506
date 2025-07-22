@@ -285,7 +285,7 @@ body {
 /* PSEUDO CLASES */
 
 .card a {
-  background-color: #056ee9;
+  /*background-color: #056ee9;*/
   border-radius: 3px;
   padding: 5px;
   color: white;
@@ -316,4 +316,70 @@ body {
   margin-top: 30px;
 }
 
+.card a:link {
+  background-color: #056ee9;
+}
+
+.card a:visited {
+  background-color: gray;
+}
+
+.card a:hover {
+  background-color: darkred;
+}
+
+.card a:active {
+  background-color: orangered;
+  color: black;
+}
+
+#textInput:focus {
+  outline: 2px solid forestgreen;
+}
+
+#fieldsetCheck:checked {
+  background-color: crimson;
+}
+
+#textInput:disabled {
+  background-color: lightgray;
+}
+
+aside ul li:first-child {
+  outline: 1px solid grey;
+}
+
+aside ul li:last-child {
+  outline: 2px dashed grey;
+}
+
+aside ul li:nth-child(4) {
+  outline: 4px double grey;
+}
+
+aside ul li:not(#item) {
+  background-color: white;
+}
+
 /* PSEUDO ELEMENTOS */
+
+.card-link::before {
+  content: "⭐ ";
+}
+
+.card-link::after {
+  content: " !!";
+}
+
+.card-text::first-letter {
+  font-size: 26px;
+  color: crimson;
+}
+
+.card-text::first-line {
+  font-style: italic;
+}
+
+.card-text::selection {
+  background-color: peachpuff;
+}
