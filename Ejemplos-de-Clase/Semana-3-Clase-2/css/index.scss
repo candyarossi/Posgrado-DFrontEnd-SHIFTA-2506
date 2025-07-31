@@ -1,0 +1,38 @@
+@use "sass:math";
+
+@import "variables";
+@import "mixins";
+
+header {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  nav {
+    background-color: $colorPrincipal;
+    $colorSecundario: green;
+    color: $colorSecundario;
+    ul {
+      background-color: $colorSecundario;
+      list-style-type: none;
+    }
+  }
+}
+ 
+button {
+  width: math.div(400px, 2);
+  height: calcRem(40 * 2);
+  color: $colorPrincipal;
+  font-size: $tamanoTipografia + 2;
+  border: 1px solid red;
+}
+
+h2 {
+  @include underline_solid;
+  color: orange;
+}
+
+p {
+  @include underline_solid;
+}
+
+main {
+  @include flex(row, center, flex-start);
+}

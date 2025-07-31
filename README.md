@@ -62,7 +62,7 @@
 - Semana 3:
 
   - [Clase 1](./Ejemplos-de-Clase/Semana-3-Clase-1/)
-  - [Clase 2](./Ejemplos-de-Clase/)
+  - [Clase 2](./Ejemplos-de-Clase/Semana-3-Clase-2/)
 
 - Semana 4:
 

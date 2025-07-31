@@ -1,0 +1,37 @@
+header {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+header nav {
+  background-color: yellow;
+  color: green;
+}
+header nav ul {
+  background-color: green;
+  list-style-type: none;
+}
+
+button {
+  width: 200px;
+  height: 5rem;
+  color: yellow;
+  font-size: 26px;
+  border: 1px solid red;
+}
+
+h2 {
+  text-decoration: underline;
+  text-decoration-style: solid;
+  color: orange;
+}
+
+p {
+  text-decoration: underline;
+  text-decoration-style: solid;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+}/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,15 @@
+@mixin underline_solid {
+  text-decoration: underline;
+  text-decoration-style: solid;
+}
+
+@mixin flex($direction, $justify, $align) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $justify;
+  align-items: $align;
+}
+
+@function calcRem($pixeles) {
+  @return math.div($pixeles, 16) * 1rem;
+}
