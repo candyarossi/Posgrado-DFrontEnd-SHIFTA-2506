@@ -66,5 +66,5 @@
 
 - Semana 4:
 
-  - [Clase 1](./Ejemplos-de-Clase/)
-  - [Clase 2](./Ejemplos-de-Clase/)
+  - [Clase 1](./Ejemplos-de-Clase/Semana-4-Clase-1/)
+  - [Clase 2](./Ejemplos-de-Clase/Semana-4-Clase-2/)
