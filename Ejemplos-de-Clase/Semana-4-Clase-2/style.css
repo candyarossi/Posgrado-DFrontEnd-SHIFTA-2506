@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin: 30px;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: stretch;
+  justify-content: stretch;
+}
+
+div {
+  width: 25%;
+  padding: 20px;
+  margin: 5px;
+  background-color: lightgray;
+  background-image: url("https://billiken.lat/wp-content/uploads/2022/01/lago-ap.jpg");
+  filter: grayscale(100%) blur(5px);
+  transition: all 0.5s ease;
+}
+
+div:hover {
+  filter: grayscale(0) blur(0);
+}
+
+/*  [ 0px - 790px ] */
+@media (max-width: 790px) {
+  div {
+    width: 40%;
+  }
+}
+
+/* [ 0px - 590px ] */
+@media (max-width: 590px) {
+  div {
+    width: 95%;
+  }
+}
+
+/* [ 590px - 890px ] */
+@media (min-width: 590px) and (max-width: 890px) {
+  div {
+    background-color: lightblue;
+  }
+}
+
+/* [ 1024px - Horizontal ] */
+@media (min-width: 1024px) and (orientation: landscape) {
+  div {
+    background-color: lightpink;
+  }
+}
+
+img {
+  width: 40%;
+}
